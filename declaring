@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  int a = 23;      //Assign the value 23 to a
+  int b = 20;      //Assign the value 20 to b
+  cout << a + b;   //cout the desired output
+
+  return 0;
+}
