@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  string s = "abc";
+  s[2] = 'd';
+  cout << s ;
+
+  return 0;
+}
+
+output abd
