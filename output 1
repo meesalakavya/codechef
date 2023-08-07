@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int a = 5;
+  int b = 10;
+
+  if ( a >= b ) 
+  {
+     cout << "a is greater or equal to. ";
+  }
+  if ( a == 0 ) 
+  {
+     cout < "a is 0. ";
+  }
+  if (a <= 5)
+  {
+     cout << "a is not more than 5. ";
+  }
+  cout << "Program ends";
+  return 0;
+}
