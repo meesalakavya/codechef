@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int a = 10;
+  int b = -10;
+
+  if ( ( a >= b ) )
+  {
+     cout << "a is greater or equal to b. ";
+  }
+  if ( ( a == 0 ) || (b == 0) )
+  {
+     cout << "At least one is 0. ";
+  }
+  if ( (a == 0) && (b == 0) )
+  {
+     cout << "Both are 0. ";
+  }
+  cout << "Program ends";
+  return 0;
+}
