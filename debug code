@@ -1,0 +1,19 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+ // without '{' you'll get a compilation error
+  { 
+ //N should be declared as an 'int'
+   int N;
+   cin>>N;
+   cout<<2*N<<endl;
+   }
+ return 0;
+}
