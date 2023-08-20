@@ -1,0 +1,18 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int N;
+   cin>>N;
+ //'cout' command was being executed only once as it was outside the while loop
+   cout<<2*N<<endl;
+   }
+ return 0;
+}
