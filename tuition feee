@@ -1,0 +1,19 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int X,Y,tuition;
+   cin>>X>>Y;
+   //Create a variable 'tuition' to store the tuition fees
+    tuition= X * Y;  
+   cout<<tuition<<endl;
+   }
+ return 0;
+}
