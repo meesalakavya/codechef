@@ -1,0 +1,20 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int X,Y;
+   cin>>X;
+   //Create a new variable Y for total distance. 5 days a week - Chef will travel 2*X distance each day - i.e. return trip walk to office
+    Y = 5 * 2 * X;  
+   //Output distance traveled for each test case
+    cout<<Y<<endl;
+   }
+ return 0;
+}
