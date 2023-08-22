@@ -1,0 +1,24 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   double A, B, X;
+   cin >> A >> B;
+   //Division of A by B - float / decimal result
+   X = A / B;
+   int C, D, Y;
+   C = A;
+   D = B;
+   //Division of A by B - integer result
+   Y = C / D;
+   cout << X << " " << Y << endl;
+  }
+ 
+}
