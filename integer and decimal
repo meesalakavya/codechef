@@ -1,0 +1,19 @@
+// Update the '_' below to solve the problem
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   double A, X;
+   int B;
+   cin >> _ >> B;
+   //Division of A by B (double / int)
+   X = A ___;
+   cout << X << endl;
+  }
+}
