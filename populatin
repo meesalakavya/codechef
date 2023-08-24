@@ -1,0 +1,21 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int X,Y,Z;
+   cin>>X>>Y>>Z;
+   // Y people move out of the town
+    int total_population = X - Y;
+   // Logical error in this line. 'Z' people immigrated to this town - so its population will increase
+    total_population = total_population + Z;
+   cout<<total_population<<endl;
+   }
+ return 0;
+}
