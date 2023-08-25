@@ -1,0 +1,19 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int N;
+	    cin >> N;
+	    int total_games = N/30;
+        int remaining_time = N % 30;
+        cout << total_games << " " << remaining_time<< endl;
+	}
+	return 0;
+}
