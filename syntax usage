@@ -1,0 +1,32 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int N;
+   // Accept 1 integer as input.
+   cin>>N;       
+   //Check if N is less than or equal to 100
+   if (N<=100)
+     {   
+       cout<<"Good"<<endl;
+     }
+    //2nd condition in the problem
+    else if (N>100 && N<=200)
+        {
+          cout<<"Better"<<endl;
+        }
+    //3rd condition in the problem
+    else
+        {                   
+         cout<<"Best"<<endl;
+        }
+  }
+ return 0;
+}
