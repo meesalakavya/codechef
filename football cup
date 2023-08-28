@@ -1,0 +1,26 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+  int t;
+  cin>>t;
+  while(t--)
+   {
+    int X,Y;
+    //Accept 2 integers inputs.
+    cin>>X>>Y;       
+    //The 1st condition was insufficient 
+    if ((X == Y) &&  (X>0 || Y>0))              
+      {
+        cout<<"YES"<<endl;
+       }
+    else
+      {
+        cout<<"NO"<<endl;
+       }
+   }
+ return 0;
+}
