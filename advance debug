@@ -1,0 +1,26 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  {
+   int X,Y;
+   cin>>X>>Y; 
+   //The original code had a logical error
+   if (Y>=X && Y<=(X+200))              
+     {
+       cout<<"Yes"<<endl;
+      }
+   else
+     {
+       cout<<"No"<<endl;
+      }
+  
+  }
+ return 0;
+}
