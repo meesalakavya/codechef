@@ -1,0 +1,29 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  {
+   int A,B,C;
+   cin>>A>>B>>C; 
+   int total_score = A + B + C;
+   int minimum_score = min(A,min(B,C));
+   //Equality not checked for
+   if (total_score>=100 && minimum_score>=10)              
+     {
+      //Yeah - we all make these mistakes. Printed 'Yes' instead of 'Pass' as expected
+       cout<<"PASS"<<endl;
+      }
+   else
+     {
+       cout<<"FAIL"<<endl;
+      }
+  
+  }
+ return 0;
+}
