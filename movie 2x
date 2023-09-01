@@ -1,0 +1,16 @@
+// Solution as follows
+// Remember - there is no t in this problem
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int X,Y;
+ cin>>X>>Y;
+ //declare a variable watchtime to store the solution
+ int watchtime = (X - Y) + (Y/2);     
+ cout<<watchtime<<endl;
+
+ return 0;
+}
