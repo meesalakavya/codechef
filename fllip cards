@@ -1,0 +1,21 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int N = 10;
+ int X = 4;
+ int option1 = X;
+ int option2 = N-X;
+ cout<<min(option1, option2)<<endl;
+
+ N = 10;
+ X = 6;
+ option1 = X;
+ option2 = N-X;
+ cout<<min(option1, option2)<<endl;
+
+return 0;
+}
